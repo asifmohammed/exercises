@@ -12,6 +12,10 @@ public class Stage4 {
     Toy shoe=new Toy("shoe");
     Toy mouse=new Toy("mouse");
 
+    Toy bear=new Toy("bear");
+    Toy bat=new Toy("bat");
+    Toy barbie=new Toy("barbie");    
+        
     House house=new House();
 
     house.addAnimal(kurre);
@@ -23,6 +27,10 @@ public class Stage4 {
     kurre.addToy(mouse);
     vilma.addToy(shoe);
     vilma.addToy(ball);
+        
+    bamse.addToy(bear);
+    bamse.addToy(bat);
+    bamse.addToy(barbie);
 
     kurre.setFriend(vilma);
     vilma.setFriend(smilla);
